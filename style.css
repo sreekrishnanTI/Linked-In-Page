@@ -15,6 +15,7 @@ header{
     color: rgba(255, 255, 255, 0.847);
     margin-left: 12vw;
     padding: 1vh 0.5vw;
+    margin-right: 15vw;
 }
 .nav-links{
     display: flex;
@@ -37,7 +38,7 @@ header{
     background-size: 1.2vw; /* icon size */
     filter: grayscale(100%) invert(50%) ;
     padding: 1vh 2vw;
-    margin-left: 6%;
+    margin-left: 1vw;
     width: 20vw;
     border: 1px solid #ccc;
     border-radius: 1.6rem;
@@ -48,4 +49,39 @@ header{
     background-color: black;
     width: 100%;
     height: auto;
+    padding-top: 2vh; 
+    display: flex;
+}
+#left-container{
+    margin-left: 13vw;
+}
+.profile{
+    background-image: url(photos/icons/lortj0v1h4bx9wlwbdx6zs3f.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(63, 63, 63);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: left;
+}
+.dp-img{
+    margin: 1.5vw 0vw 0vw 1vw;
+}
+#username{
+    text-align: left;
+    text-size-adjust: 20px;
+    color: white;
+}
+#des{
+    color: white;
+    line-height: 120%;
+    margin: 0%;
+}
+#des1{
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 400;
+    font-size: small;
 }
