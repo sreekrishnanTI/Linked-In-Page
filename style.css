@@ -148,7 +148,41 @@ header{
 #news{
     background-color: #1b1f23;;
     width: 23vw;
-    height: 30vh;
+    height: 55vh;
     border-radius: 1rem;
     margin-left: 2rem;
+}
+#order3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+#pic{
+    display: flex;
+    align-items: flex-start;
+    background-image: url(photos/icons/post.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    align-items:center ;
+    scale: 178%;
+    margin:  17vh 13.6vw;
+}
+#order4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.7vw;
+    margin-top: 24vh;
+}
+.img-size{
+    width: 20%;
+    height: 20%;
+}
+.btn2{
+    background-color: #1b1f2300;
+    border: 0px;
+   filter: invert(100%);
 }
