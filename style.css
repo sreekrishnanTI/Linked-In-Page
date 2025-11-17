@@ -5,9 +5,10 @@
 }
 body{
     font-family: Arial, sans-serif;
+    width: 100%; 
 }
 header{
-    background-color:   rgba(0, 0, 0, 0.795);
+        background-color: #1b1f23;
 }
 .navbar{
     display: flex;
@@ -58,7 +59,7 @@ header{
 .profile{
     background-image: url(photos/icons/lortj0v1h4bx9wlwbdx6zs3f.svg);
     background-repeat: no-repeat;
-    background-color: rgb(63, 63, 63);
+    background-color:#1b1f23;
     width: 15vw;
     height: 15vw;
     border-radius: 1rem;
@@ -84,4 +85,19 @@ header{
     padding: 0%;
     font-weight: 400;
     font-size: small;
+}
+.item-box{
+    background-color: #1b1f23;
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    margin-top : 1vh;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.color-box{
+    background-color: #1b1f23;
+}
+#saved{
+    margin-left: 1vw;  
 }
