@@ -101,3 +101,54 @@ header{
 #saved{
     margin-left: 1vw;  
 }
+#uper{
+    background-color: #1b1f23;
+    width: 35vw;
+    height: 14vh;
+    margin-left: 2vw;
+    border-radius: 1rem;
+    flex-direction: row;
+}
+
+#order1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+#order2{
+    display: flex;
+    flex-direction: row;
+    gap: 7vw;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.stylet{
+    text-decoration: none;
+    color: white;
+    text-decoration-thickness: Bold;
+}
+.btn{
+    background-color: #1b1f2300;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+#media{
+    height: 100vh;
+    width: 35vw;
+}
+#post1{
+    width:35vw;
+    height: 70vh;
+    margin: 4vh ;
+    border-radius: 1rem;
+    background-color: #1b1f23;
+}
+#news{
+    background-color: #1b1f23;;
+    width: 23vw;
+    height: 30vh;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
