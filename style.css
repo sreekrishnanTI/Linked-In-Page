@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     font-family: Arial, sans-serif;
     width: 100%; 
@@ -176,7 +179,7 @@ header{
     padding: 2%;
 }
 .img-size{
-    width: 50%;
+    width: 30%;
 }
 .btn2{
     background-color: #1b1f2300;
@@ -207,4 +210,36 @@ header{
     background-color: #cccccc15;
 
 }
+.box{
+    padding: 1vh 0 0 1vw;
+    color: #ffffff;
+    padding: 0.7em;
+}
 
+.box :hover{
+    background-color: #7b7b7b5c;
+    cursor: pointer;
+}
+.box p{
+    font-size: small;
+}
+.section2{
+    color: white;
+}
+.sec{
+    display: flex;
+    font-size: small;
+    color: #929292;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0.5vh;
+    margin-left: 1vw;
+}
+.sec :hover{
+    color: rgb(42, 131, 240);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pf{
+    padding: 5% 0 0 18%;
+}
